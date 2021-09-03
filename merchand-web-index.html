@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <!-- CDN File -->
+    <script type="text/javascript" src="js/hoopy.js"></script>
+</head>
+
+<body>
+    <button id='btn'>Load Hoopy</button>
+    <script>
+        $(document).off('click', '#btn').on('click', '#btn', function () {
+            $.fn.loadPopup();
+        })
+    </script>
+</body>
+
+</html>
